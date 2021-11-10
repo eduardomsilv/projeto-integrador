@@ -199,8 +199,6 @@ nav ul li a:hover {
 
 figure.foto-legenda {
 	position: relative;
-	/*border: 8px solid white;
-	box-shadow: 1px 1px 4px #000;*/
 	display: inline-block;
 	margin: 50px;
 	
@@ -208,7 +206,7 @@ figure.foto-legenda {
 }
 
 figure.foto-legenda img {
-	width: 500px;
+	width: 400px;
 	border-radius: 20px;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 	
@@ -221,7 +219,7 @@ figure.foto-legenda figcaption{
 	color: white;
 	width: 100%;
 	height: 100%;
-	padding: 65px;
+	padding: 45px;
 	box-sizing: border-box;
 	align-items: center;
 	border-radius: 20px;
@@ -266,15 +264,63 @@ figure.foto-legenda figcaption a{
 	
 
 .servicos {
-	text-align: left;
+	 text-align: left; 
+	 display: inline-block;
+	
 	
 }
 
-#tratamento-corporal img{
+#services-title{
+	text-align: center;
+	
+}
+
+#services-title p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	margin-top: 50px;
+	color: #69523E;
+	border-bottom: 3px solid #69523E;
+	display: inline-block;
+	
+}
+
+
+#tratamento-corporal {
+	width: 100vw;
+	display: flex;
+	background-color: rgba(153, 182, 74, 0.3);
+	margin-top: 90px;
+	
+}
+
+#tratamento-corporal img {
 	width: 600px;
-	margin: 90px;
+	
+}
+
+#tratamento-corporal p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	margin-top: 50px;
+	color: #69523E;
+	display: block;
+	
+}
+
+#tratamento-corporal p:nth-child(2) {
+	font-size: 24px;
+	margin-left: 20px
 
 }
+
+#tratamento-corporal p:nth-child(3) {
+	font-size: 18px;
+	color: #9AB64A;
+	
+}
+
+/*Page Sobre*/
 
 
 
