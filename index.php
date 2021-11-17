@@ -1,4 +1,4 @@
 <?php
-is_countable("index.html");
+include_once("index.html");
 
 ?>
